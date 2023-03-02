@@ -3,36 +3,36 @@
 ### Set up your development environment
 ##### If at any point these instructions do not make sense, ***STOP*** and ask!
 
-1) Go to ```https://github.com/tuxedogold/VideoGameWorkshop```
+1) Go to ```https://github.com/tuxedogold/VideoGameWorkshop2```
 
 2) Click the GREEN ```<> Code``` button
 
 3) From the drop down list select ```download zip```
 
-4) From the downloads folder, extract the zip into *C:\VideoGameWorkshop*
+4) From the downloads folder, extract the zip into *C:\VideoGameWorkshop2*
 
 5) Open an administrative command prompt
 a) Press Windows key
 b) Type ```cmd``` in the search field
 c) Select *run as administrator*
-d) In the dark window type ```cd C:\VideoGameWorkshop``` and press enter to submit the command
+d) In the dark window type ```cd C:\VideoGameWorkshop2``` and press enter to submit the command
 f) Type ```powershell –ExecutionPolicy Bypass ./install_environment.ps1```
 ###### DO NOT TOUCH ANYTHING 
 
 If you see red text, let Mr. Gold know. Otherwise, you successfully installed your development environment at the end, when you see this: 
 
 > ---Completed Installation : ) ---
-> C:\VideoGameWorkshop>
+> C:\VideoGameWorkshop2>
 
 
 ### Run the starter pack
-##### Inside C:\VideoGameWorkshop is a starter pack for building our game. 
+##### Inside C:\VideoGameWorkshop2 is a starter pack for building our game. 
 
 1) Press the Windows key
 2) Type ```VSCode``` and click *Open*
 3) From the top menu, click on *File*
 4) Click *Open Folder*
-5) Navigate to C:\VideoGameWorkshop then click *Select Folder*
+5) Navigate to C:\VideoGameWorkshop2 then click *Select Folder*
 6) From the top menu, click *Terminal*
 7) Click *New Terminal*
 8) Test opening the sprite editor by typing ```.\sprite``` in the terminal and pressing enter. 
@@ -49,19 +49,19 @@ If you see two fish and can move with WASD it works! Press ```ESC``` to close.
 2) Type ```VSCode``` and click *Open*
 3) From the top menu, click on *File*
 4) Click *Open Folder*
-5) Navigate to C:\VideoGameWorkshop then click *Select Folder*
+5) Navigate to C:\VideoGameWorkshop2 then click *Select Folder*
 6) From the top menu, click *Terminal*
 7) Click *New Terminal*
 8) Type ```./sprite``` to open the MGCB editor
 9) In the MGCB editor top menu, click *File*
 10) Click *Open...*
-10) Navigate to C:\VideoGameWorkshop\Content\Content
+10) Navigate to C:\VideoGameWorkshop2\Content\Content
 11) Click *Open*
 12) Right click on the *img* folder in the Project box
 13) Click *Add* then *Existing item...*
 14) Select *TheNextRedFish.png* and click *Open*
 15) From the top menu, click *Build* then *Rebuild*
-16) In VSCode, under the *Explorer* *VideoGameWorkshop* drop down, click *MyFirstGame.cs*
+16) In VSCode, under the *Explorer* *VideoGameWorkshop2* drop down, click *MyFirstGame.cs*
 17) On line 44, change 
 
 ```        _otherFish = new Fish(Content.Load<Texture2D>("img/RedFish"),```
