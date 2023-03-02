@@ -64,6 +64,7 @@ Go back to VSCode where you typed ```.\sprite``` in step 8, but instead type ```
 14) Select *TheNextRedFish.png* and click *Open*
 15) From the top menu, click *Build* then *Rebuild*
 16) In VSCode, under the *Explorer* *VideoGameWorkshop2* drop down, click *MyFirstGame.cs*
+
 17) On line 44, change 
 
 ```        _otherFish = new Fish(Content.Load<Texture2D>("img/RedFish"),```
@@ -72,11 +73,9 @@ into
 
 ```        _otherFish = new Fish(Content.Load<Texture2D>("img/TheNextRedFish"),```
 
-You must type this exactly or it will not work. Notice how the *.png* file extension is assumed.
+You must type this exactly or it will not work. Press Crtl+S to save the file. Notice how the *.png* file extension is assumed.
 
-18) Press Crtl+S to save the file
-
-19) Test run the game by typing ```.\play``` in the terminal and pressing enter. You should see a new fish in the game. Let's talk about the background.
+Test run the game by typing ```.\play``` in the terminal and pressing enter. You should see a new fish in the game. Let's talk about the background.
 
 ## Challenge 2: Create more sprites of your choosing 
 1) Change the sprite declaration (line 44) to a List of sprites 
