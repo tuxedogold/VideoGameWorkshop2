@@ -16,10 +16,12 @@ a) Press Windows key
 b) Type ```cmd``` in the search field
 c) Select *run as administrator*
 d) In the dark window type ```cd C:\VideoGameWorkshop2``` and press enter to submit the command
-f) Type ```powershell –ExecutionPolicy Bypass ./install_environment.ps1```
+f) It should now say: ```C:\VideoGameWorkshop2>```. 
+Type ```powershell –ExecutionPolicy Bypass ./install_environment.ps1```
+so that it looks like ```C:\VideoGameWorkshop2>powershell -ExecutionPolicy Bypass ./install_environment.ps1```. Press Enter.
 ###### DO NOT TOUCH ANYTHING 
 
-If you see red text, let Mr. Gold know. Otherwise, you successfully installed your development environment at the end, when you see this: 
+If you see red text, let Mr. Gold know. Otherwise, you successfully installed your development environment at the end, when you see this at the bottom: 
 
 > ---Completed Installation : ) ---
 > C:\VideoGameWorkshop2>
@@ -35,14 +37,14 @@ If you see red text, let Mr. Gold know. Otherwise, you successfully installed yo
 5) Navigate to C:\VideoGameWorkshop2 then click *Select Folder*
 6) From the top menu, click *Terminal*
 7) Click *New Terminal*
-8) Test opening the sprite editor by typing ```.\sprite``` in the terminal and pressing enter. 
+8) Test opening the sprite editor by typing ```.\sprite``` in the terminal and press enter. 
 a) If a new window opens that says *MGCB Editor* in the top left corner, the sprite editor works. Ignore step b. 
 b) If it says "Run dotnet tool restore" to make the "mgcb-editor" command available in red text, type
 ```dotnet tool restore``` then try ```.\sprite``` again.
 
-9) Test running the game by typing ```.\play``` in the terminal and pressing enter. 
+### Try test running the game
 
-If you see two fish and can move with WASD it works! Press ```ESC``` to close. 
+Go back to VSCode where you typed ```.\sprite``` in step 8, but instead type ```.\play``` in the terminal and press enter. If you see two fish and can move with WASD it works! Press ```ESC``` to close. 
 
 ## Challenge 1: Change the red fish out for a new sprite
 1) Press the Windows key
@@ -72,7 +74,9 @@ into
 
 You must type this exactly or it will not work. Notice how the *.png* file extension is assumed.
 
-18) Test running the game by typing ```.\play``` in the terminal and pressing enter. You should see a new fish in the game. Let's talk about the background.
+18) Press Crtl+S to save the file
+
+19) Test run the game by typing ```.\play``` in the terminal and pressing enter. You should see a new fish in the game. Let's talk about the background.
 
 ## Challenge 2: Create more sprites of your choosing 
 1) Change the sprite declaration (line 44) to a List of sprites 
